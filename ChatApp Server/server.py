@@ -1,6 +1,6 @@
 from flask import *
 from http import HTTPStatus
-from database import DataBase
+from server.database import DataBase
 
 app = Flask(__name__)
 
