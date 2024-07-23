@@ -7,7 +7,7 @@ from time import sleep
 
 class ChatApp(QMainWindow):
     def __init__(self):
-        self.server = "192.168.178.81"
+        self.server = "__your__server__ip"
         self.user = ""
         self.chats = []
         self.messages = []
